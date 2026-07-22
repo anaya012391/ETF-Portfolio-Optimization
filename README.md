@@ -74,10 +74,10 @@ The project followed the following workflow:
 
 Performed data validation including:
 
--Missing value detection
--Duplicate direction
--Data type verification
--Summary statstics
+- Missing value detection
+- Duplicate direction
+- Data type verification
+- Summary statstics
 
 ### 3. Exploratory Data Analysis
 
