@@ -2,6 +2,8 @@
 
 Python project analyzing ETF portfolio optimization using Monte Carlo simulation and mathematical optimization.
 
+---
+
 # ETF Portfolio Optimization Using Monte Carlo Simulation and Mathematical Optimization 
 
 ## Project Overview
@@ -11,6 +13,7 @@ Using Python, historical price data was analyzed to compare three portfolio opti
 The analysis evaluates each portfolio based on expected return, volatility, diversification, and Sharpe Ratio to determine which approach provides the most effective balance between risk and return.
 
 ---
+
 ## Business Problem
 
 Investors face the challenge of allocating capital across multiple ETFs while balancing expected returns and investment risk.
@@ -20,7 +23,8 @@ Investors face the challenge of allocating capital across multiple ETFs while ba
 > Can historical ETF market data be used to construct an optimized portfolio that maximizes risk-adjusted returns while maintaining practical diversifaction?
 
 ---
-Project Objective
+
+## Project Objective
 
 The objective of this project is to:
 
@@ -30,6 +34,7 @@ The objective of this project is to:
 - Recommend a practical ETF allocation based on historical performance
 
 ---
+
 ## Dataset
 
 Historical daily adjusted closing prices were collected using the Yahoo Finance API through the 'yfinance' Python library.
@@ -127,10 +132,14 @@ Based on these findings, the constrained optimization model provides the most pr
 
 ![Cumulative Returns](images/cumulative_returns_of_etfs.png)
 
----
-## ETF Correlation Heatmap
+This chart illustrates the historical cumulative performance of the selected ETFs over the analysis period. It provides an initial view of return trends before portfolio optimization is applied.
 
-![Correlation Heatmap](images/monte_carlo_correlation_heatmap.png)
+---
+## Monte Carlo Portfolio Simulation
+
+![Monte Carlo Correlation Heatmap](images/monte_carlo_correlation_heatmap.png)
+
+10,000 randomly weighted portfolios were simulated to evaluate expected annual return, annual volatility, and Sharpe Ratio. The highlighted portfolio represents the highest Sharpe Ratio identified through the simulation.
 
 ---
 
@@ -138,15 +147,23 @@ Based on these findings, the constrained optimization model provides the most pr
 
 ![Risk vs Return](images/monte_carlo_mathematical_practical_correlation_heatmap.png)
 
+This visualization compares the highest-Sharpe portfolio from the Monte Carlo simulation with portfolios generated through mathematical optimization and a practical optimization model using a 30% allocation cap.
+
 ---
 ## Portfolio Allocation Comparison
 
 ![Allocation Comparison](images/allocation_comparison.png)
 
+This chart compares ETF weight allocations across the Monte Carlo, mathematical optimization, and practical optimization methods, highlighting differences in diversification and portfolio concentration.
+
 ---
 ## Performance Comparison
 
 ![Performance Comparison](images/performance_comparison_by_optimization_method.png)
+
+Expected annual return, annual volatility, and Sharpe Ratio are compared across all optimization methods to evaluate their relative risk-adjusted performance. 
+
+Key Finding: While the unconstrained mathematical optimization achieved the highest Sharpe Ratio, it produced a concentrated allocation. The practical optimization maintained strong risk-adjusted performance while improving diversification, making it the preferred recommendation.
 
 ---
 
