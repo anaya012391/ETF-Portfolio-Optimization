@@ -1,14 +1,18 @@
-# ETF Portfolio Optimization Using Monte Carlo Simulation and Mathematical Optimization
+# ETF Portfolio Optimization Using Historical Market Data
 
-Python project analyzing ETF portfolio optimization using Monte Carlo simulation and mathematical optimization.
+Comparing Monte Carlo Simulation, Mathematical Optimization, and Practical Portfolio Construction.
+
+Python project analyzing historical ETF market data to optimize investment portfolios using Monte Carlo simulation and mathematical optimiation techniques.
 
 ---
 
 ## Project Overview
 
+This project compares three portfolio optimization techniques to identify an investment stratefy that balances return, risk, and diversification using historical ETF market data. 
+
 This project explores whether historical exchange-traded-fund (ETF) market data can be used to construct anoptimized investment portfolio. 
 Using Python, historical price data was analyzed to compare three portfolio optimization approaches: Monte Carlo simulatioin, unconstrained mathematical optimization, and a practical optimization model with allocation constraints.
-The analysis evaluates each portfolio based on expected return, volatility, diversification, and Sharpe Ratio to determine which approach provides the most effective balance between risk and return.
+Each portfolio is evaluated using expected annual return, volatility, diversification, and Sharpe Ratio to determine which optimization method provides the best balance between risk and return.
 
 ---
 
