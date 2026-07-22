@@ -215,5 +215,5 @@ Future work could incorporate these factors to create a more robust investment f
 
 **Ruth Anaya**
 
-Montclair State University - MBA Candidate - Business Analytics
-Florida International University - B.B.A. Finance 
+- Montclair State University - MBA Candidate - Business Analytics
+- Florida International University - B.B.A. Finance 
