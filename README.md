@@ -1,10 +1,8 @@
-# ETF-Portfolio-Optimization
+# ETF Portfolio Optimization Using Monte Carlo Simulation and Mathematical Optimization
 
 Python project analyzing ETF portfolio optimization using Monte Carlo simulation and mathematical optimization.
 
 ---
-
-# ETF Portfolio Optimization Using Monte Carlo Simulation and Mathematical Optimization 
 
 ## Project Overview
 
