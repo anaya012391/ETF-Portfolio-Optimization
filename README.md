@@ -6,6 +6,14 @@ Python project analyzing historical ETF market data to optimize investment portf
 
 ---
 
+## 📊 Project Presentation
+
+View the presentation summarizing the project methodology, optimization techniques, and key findings.
+
+**Presentation:** [ETF Portfolio Optimization Presentation](presentation/ETF_Portfolio_Optimization_Presentation.pdf)
+
+---
+
 ## Project Overview
 
 This project explores whether historical exchange-traded-fund (ETF) market data can be used to construct anoptimized investment portfolio. Using Python, historical price data was analyzed to compare three portfolio optimization approaches: Monte Carlo simulation, unconstrained mathematical optimization, and a practical optimization model with allocation constraints. Each portfolio is evaluated using expected annual return, volatility, diversification, and Sharpe Ratio to determine which optimization method provides the best balance between risk, return, and diversification.
