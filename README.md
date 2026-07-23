@@ -178,6 +178,9 @@ ETF-Portfolio-Optimization/
 │   ├── monte_carlo_mathematical_practical_correlation_heatmap.png
 │   ├── allocation_comparison.png
 │   └── performance_comparison_by_optimization_method.png
+│
+└── presentation/
+    └── ETF_Portfolio_Optimization_Presentation.pdf
 ```
 
 ---
